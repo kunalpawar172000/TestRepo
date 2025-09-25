@@ -20,7 +20,7 @@
     .formdiv {
       width: 500px;
       height: auto;
-      top: 10%;
+      top: 15%;
       right: 8%;
       opacity: 1;
       border-radius: 16px;
@@ -95,6 +95,7 @@
       font-size: 24px;
       line-height: 28px;
       letter-spacing: 0;
+      margin-bottom: 40px;
     }
 
     .formFieldLabel {
@@ -126,11 +127,20 @@
     }
 
     @media (max-width:1400px) {
+
+      .formdiv
+      {
+        top: 10% !important;
+      }
+
       .formTitle {
 
         font-size: 22px;
         line-height: 25px;
         letter-spacing: 0;
+        margin-bottom: 30px !important;
+        margin-top: 30px !important;
+        
       }
 
       input[type="text"],
@@ -159,7 +169,7 @@
 
       button {
         width: 436px;
-        height: 35px;
+        height: 38px;
         opacity: 1;
         border-radius: 8px;
         gap: 8px;
@@ -184,9 +194,7 @@
       }
 
       .form2 {
-
-        margin-bottom: 15px;
-
+        margin-bottom: 20px;
       }
     }
   </style>
@@ -210,7 +218,7 @@
       </div>
 
 
-      <div class="formTitle" style="margin-bottom: 40px;">Log in to your account!</div>
+      <div class="formTitle" >Log in to your account!</div>
 
       <div style="display: flex;flex-direction: column;gap: 20px;">
 
@@ -278,4 +286,3 @@
 </body>
 
 </html>
-
